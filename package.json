@@ -4,12 +4,14 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
-    "build": "ng build",
-    "test": "ng test",
+    "start": "ng build && node server/server.js",
+    "build": "ng build && node server/server.js",
+    "run-watch": "ng build && node server/server.js",
+    "preinstall": "npm install -g @angular/cli",
+    "postinstall": "ng build --aot -prod",
     "lint": "ng lint",
-    "e2e": "ng e2e"
-//    "postinstall": "ng build --aot --target=production"
+    "e2e": "ng e2e",
+    "watch": "npm-watch"
   },
   "private": true,
   "dependencies": {
