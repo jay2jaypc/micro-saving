@@ -8,7 +8,7 @@
     "build": "ng build && node server/server.js",
     "run-watch": "ng build && node server/server.js",
     "preinstall": "npm install -g @angular/cli",
-    "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build --aot --target=production",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "watch": "npm-watch"
