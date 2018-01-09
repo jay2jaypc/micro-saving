@@ -1,14 +1,107 @@
-@font-face {
-  font-family: Roboto-Regular;
-  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf)
+.microContent {
+  height: 100%;
 }
 
-@font-face {
+.card-wrapper {
+  padding: 30px 20px 30px 20px;
+  width: inherit;
   font-family: Roboto-Bold;
-  src: url(../assets/fonts/Roboto/Roboto-Bold.ttf)
+
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  text-align: left;
+  font-size: 28px;
+}
+
+span.lightBlue {
+  color: rgba(198, 214, 247, 1);
+}
+
+.guided-wrapper {
+  position: relative;
+  bottom: -92px;
+  height: 100px;
+  width: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.18);
+}
+
+.autop-wrapper {
+  position: relative;
+  bottom: -67px;
+  height: 100px;
+  width: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.18);
 }
 
 
+.pic-wrapper {
+  padding-left: 24px;
+  padding-top: 25px;
+}
+
+
+.highlightText {
+  font-family: Roboto-Regular;
+  font-weight: 900;
+  color: rgba(44, 55, 95, 1);
+  font-size: 16px;
+  padding-left: 88px;
+  padding-top: 25px;
+}
+
+
+.content-wrapper {
+  margin-left: 24px;
+  margin-top: 25px;
+}
+
+.gray {
+  color: rgba(128, 126, 126, 1);
+}
+
+.fineprint {
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  margin-top: -45px;
+  margin-left: 88px;
+  color: rgba(69, 70, 73, 1);
+  line-height: 14px;
+  text-align: left;
+}
+
+.microContent {
+  height: 100%;
+}
+
+.card-wrapper {
+  padding: 30px 20px 30px 20px;
+  width: inherit;
+  font-family: Roboto-Bold;
+
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  text-align: left;
+  font-size: 28px;
+}
+
+span.lightBlue {
+  color: rgba(198, 214, 247, 1);
+}
+
+.imgBottomLeft {
+  padding-right: 64px;
+  margin-top: 30vh;
+  width: inherit;
+  height: 114px;
+}
 
 
 .main {
@@ -79,7 +172,7 @@
   height: 0.75em;
   width: 0.75em;
   right: 1.19em;
-  background-image: url(../assets/images/close.svg);
+  background-image: url(../../../assets/images/close.svg);
 }
 /* line 32, ../sass/_title.scss */
 .perso-teaser-title input {

@@ -1,0 +1,21 @@
+.homeImg {
+  position: absolute;
+  top: 0;
+  width: 375px;
+  height: 667px;
+}
+
+.bigbutton {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+

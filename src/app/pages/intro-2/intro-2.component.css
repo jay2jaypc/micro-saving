@@ -1,14 +1,60 @@
-@font-face {
-  font-family: Roboto-Regular;
-  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf)
+.microContent {
+  height: 100%;
 }
 
-@font-face {
+.card-wrapper {
+  padding: 30px 20px 30px 20px;
+  width: inherit;
   font-family: Roboto-Bold;
-  src: url(../assets/fonts/Roboto/Roboto-Bold.ttf)
+
 }
 
+.card-text {
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  text-align: left;
+  font-size: 28px;
+}
 
+span.lightBlue {
+  color: rgba(198, 214, 247, 1);
+}
+
+.imgBottomLeft {
+  padding-right: 64px;
+  margin-top: 30vh;
+  width: inherit;
+  height: 114px;
+}
+
+.microContent {
+  height: 100%;
+}
+
+.card-wrapper {
+  padding: 30px 20px 30px 20px;
+  width: inherit;
+  font-family: Roboto-Bold;
+
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  text-align: left;
+  font-size: 28px;
+}
+
+span.lightBlue {
+  color: rgba(198, 214, 247, 1);
+}
+
+.imgBottomLeft {
+  padding-right: 64px;
+  margin-top: 30vh;
+  width: inherit;
+  height: 114px;
+}
 
 
 .main {
@@ -79,7 +125,7 @@
   height: 0.75em;
   width: 0.75em;
   right: 1.19em;
-  background-image: url(../assets/images/close.svg);
+  background-image: url(../../../assets/images/close.svg);
 }
 /* line 32, ../sass/_title.scss */
 .perso-teaser-title input {

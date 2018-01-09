@@ -1,29 +1,39 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router'
+import {Router} from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-complete',
+  templateUrl: './complete.component.html',
+  styleUrls: ['./complete.component.css']
 })
-export class AppComponent implements OnInit {
+export class CompleteComponent implements OnInit {
 
   url;
   constructor(private _router: Router) {
+    console.log("INSIDE INIT - INTRO");
     this.url = _router.url;  // to print only path eg:"/login"
   }
 
   ngOnInit() {
-    console.log('inside init');
-    this._router.navigate(['/teaser']);
   }
 
-  getNextPage(event){
-    console.log(event);
-    console.log(this.url);
-    switch (this.url){
+  getNextPage() {
+    console.log("INSIDE NEXT PAGE - INTRO: " + this.url);
+    switch (this.url) {
       case '/':
         this.url = '/teaser';
+        console.log('INSIDE CASE');
+        this._router.navigate(['/teaser']);
+        break;
+
+      case '/teaser':
+        this.url = '/intro';
+        console.log('INSIDE CASE');
+        this._router.navigate(['/intro']);
+        break;
+
+      case '/intro':
+        this.url = '/intro';
         console.log('INSIDE CASE');
         this._router.navigate(['/intro-2']);
         break;
@@ -47,8 +57,12 @@ export class AppComponent implements OnInit {
         this._router.navigate(['/complete']);
         break;
 
+      case '/complete':
+        this.url = '/teaser';
+        console.log('INSIDE CASE');
+        this._router.navigate(['/teaser']);
+        break;
+
     }
-
   }
-
 }

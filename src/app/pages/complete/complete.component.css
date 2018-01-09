@@ -1,14 +1,138 @@
-@font-face {
-  font-family: Roboto-Regular;
-  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf)
+.microContent {
+  height: 100%;
+  background-color: rgba(82, 110, 174, 1);
 }
 
-@font-face {
+.card-wrapper {
+  padding: 30px 20px 30px 20px;
+  width: inherit;
   font-family: Roboto-Bold;
-  src: url(../assets/fonts/Roboto/Roboto-Bold.ttf)
+
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  text-align: left;
+  font-size: 28px;
+}
+
+span.lightBlue {
+  color: rgba(198, 214, 247, 1);
+}
+
+.guided-wrapper {
+  position: relative;
+  bottom: -92px;
+  height: 100px;
+  width: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.18);
+}
+
+.confirm-wrapper {
+  position: relative;
+  bottom: -120px;
+  height: 100px;
+  width: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.18);
 }
 
 
+.pic-wrapper {
+  padding-left: 24px;
+  padding-top: 25px;
+}
+
+
+.highlightText {
+  font-family: Roboto-Bold;
+  font-weight: 900;
+  color: rgba(44, 55, 95, 1);
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+
+}
+
+
+.content-wrapper {
+  margin: 0;
+}
+.imgJ {
+  padding-top: 15px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.gray {
+  color: rgba(128, 126, 126, 1);
+}
+
+.fineprint {
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  margin-top: -45px;
+  margin-left: 88px;
+  color: rgba(69, 70, 73, 1);
+  line-height: 14px;
+  text-align: left;
+}
+
+.disclaimer {
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+.imgBottomLeft img {
+  margin-left: 10px;
+  margin-top: 10vh;
+  width: inherit;
+  height: 160px;
+}
+
+
+.microContent {
+  height: 100%;
+}
+
+.card-wrapper {
+  padding: 30px 20px 30px 20px;
+  width: inherit;
+  font-family: Roboto-Bold;
+
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  text-align: left;
+  font-size: 28px;
+}
+
+span.lightBlue {
+  color: rgba(198, 214, 247, 1);
+}
+
+.imgBottomLeft {
+  padding-right: 64px;
+  /*margin-top: 30vh;*/
+  width: inherit;
+  height: 114px;
+}
 
 
 .main {
@@ -79,7 +203,7 @@
   height: 0.75em;
   width: 0.75em;
   right: 1.19em;
-  background-image: url(../assets/images/close.svg);
+  background-image: url(../../../assets/images/close.svg);
 }
 /* line 32, ../sass/_title.scss */
 .perso-teaser-title input {
@@ -160,8 +284,7 @@
 .main-content {
   width: inherit;
   background-color: rgba(142, 176, 246, 1);
-  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.18);
+  /*box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.18);*/
   height: 85vh;
 }
-
 
